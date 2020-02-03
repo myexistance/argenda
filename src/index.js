@@ -111,7 +111,7 @@ class App extends Component {
                 <b>{this.state.events.length} events </b> today.
                 </h4>
 
-                <img src={Diary} rounded alt="diaryimage"/>
+                <img src={Diary} rounded className="img-fluid" alt="diaryimage"/>
 
             </MDBCol>
 
