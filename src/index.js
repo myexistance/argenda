@@ -108,7 +108,7 @@ class App extends Component {
                 </MDBRow>
             </MDBCol>
             <MDBCol md="4" className="mb-r">
-            // <h2 className="text-uppercase text- bold my-3">2020 Diary</h2>
+            
 
                 <h4 className="my-3">
                 You have{" "}
