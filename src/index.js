@@ -3,9 +3,10 @@ import ReactDOM from "react-dom";
 import '@fortawesome/fontawesome-free/css/all.min.css';
 import "bootstrap-css-only/css/bootstrap.min.css";
 import "mdbreact/dist/css/mdb.css";
-import { MDBBtn, MDBInput, MDBModal, MDBModalBody, MDBModalHeader, MDBModalFooter, MDBIcon, MDBBadge, MDBContainer, MDBRow, MDBCol} from "mdbreact";
+import { MDBBtn, MDBInput, MDBModal, MDBModalBody,  MDBModalHeader, MDBModalFooter, MDBIcon, MDBBadge, MDBContainer, MDBRow, MDBCol} from "mdbreact";
 import "./index.css";
 import Diary from "./img/diary.jpg"  ;
+
 
 
 
@@ -74,6 +75,9 @@ class App extends Component {
         modal: !this.state.modal
     });
     };
+
+
+
     render() {
     return (
         <React.Fragment>
@@ -104,7 +108,7 @@ class App extends Component {
                 </MDBRow>
             </MDBCol>
             <MDBCol md="4" className="mb-r">
-            <h2 className="text-uppercase text- bold my-3">2020 Diary</h2>
+            // <h2 className="text-uppercase text- bold my-3">2020 Diary</h2>
 
                 <h4 className="my-3">
                 You have{" "}
@@ -131,7 +135,7 @@ class App extends Component {
                       name="time"
                       label="Time"
                       icon="clock"
-                      hint="12:30"
+                      hint="time"
                       group
                       type="text"
                       getValue={this.handleInputChange("time")}
@@ -165,7 +169,7 @@ class App extends Component {
             </MDBModalBody>
             <MDBModalFooter className="justify-content-center">
             <MDBBtn
-                color="info"
+                color="elegant"
                 onClick={() => {
                 this.toggleModal();
                 this.addEvent();
