@@ -81,7 +81,7 @@ class App extends Component {
             <MDBRow>
             <MDBCol md="8" >
                 <h2 className="text-uppercase my-3">Today: {this.state.date.toLocaleDateString()} </h2>
-                <br></br>
+
                 <div id="events">
                 {this.state.events.map(event => (
                     <Event
@@ -97,7 +97,7 @@ class App extends Component {
                 </div>
                 <MDBRow className="mb-4">
                 <MDBCol xl="3" md="6" className="mx-auto text-center">
-                    <MDBBtn color="info" rounded onClick={this.toggleModal}>
+                    <MDBBtn color="elegant" rounded onClick={this.toggleModal}>
                     Add Event
                     </MDBBtn>
                 </MDBCol>
