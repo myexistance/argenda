@@ -108,7 +108,7 @@ class App extends Component {
                 </MDBRow>
             </MDBCol>
             <MDBCol md="4" className="mb-r">
-            
+
 
                 <h4 className="my-3">
                 You have{" "}
@@ -135,7 +135,7 @@ class App extends Component {
                       name="time"
                       label="Time"
                       icon="clock"
-                      hint="time"
+                      hint="12:00"
                       group
                       type="text"
                       getValue={this.handleInputChange("time")}
